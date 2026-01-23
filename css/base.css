@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+header {
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  border: 1px solid var(--primary);
+  padding: 12px 20px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.section {
+  padding: 60px 40px;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.skills-grid span {
+  display: inline-block;
+  border: 1px solid #1e293b;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #1e293b;
+}
