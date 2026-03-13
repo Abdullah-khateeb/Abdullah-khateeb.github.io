@@ -4,7 +4,9 @@
 
 A minimalist, high-performance terminal-themed portfolio designed for a DevSecOps and Cybersecurity professional. This version features a custom typing engine, Arch Linux aesthetic, and a modular architecture.
 
-![Focus](https://img.shields.io/badge/Focus-Cybersecurity%20%7C%20DevSecOps-green) ![OS](https://img.shields.io/badge/OS-Arch%20Linux-blue) ![Shell](https://img.shields.io/badge/Shell-Bash-white)
+![](https://img.shields.io/badge/FOCUS-CYBERSECURITY%20%7C%20DEVSECOPS-2ea44f?style=for-the-badge) 
+![](https://img.shields.io/badge/OS-ARCH%20LINUX-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white) 
+![](https://img.shields.io/badge/SHELL-BASH-4eaa25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ---
 
