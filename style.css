@@ -1,0 +1,86 @@
+:root {
+    --bg: #0f111a;
+    --term-bg: #1a1c25;
+    --text: #a6accd;
+    --prompt: #c3e88d;
+    --path: #82aaff;
+    --cmd: #ffffff;
+    --accent: #ffcb6b;
+    --shadow: rgba(0, 0, 0, 0.4);
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.terminal-block {
+    margin: 40px 0;
+    padding: 20px;
+    background: var(--term-bg);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px var(--shadow);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.prompt { color: var(--prompt); font-weight: bold; }
+.path { color: var(--path); }
+.cmd-text { color: var(--cmd); }
+.cmd-text::after {
+    content: "█";
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.output {
+    display: none;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    border-left: 2px solid rgba(130, 170, 255, 0.3);
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.output b {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+a { 
+    color: var(--path); 
+    text-decoration: none; 
+}
+
+a:hover { 
+    color: var(--accent); 
+    background: rgba(130, 170, 255, 0.1);
+}
+
+.arch-neofetch {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    color: var(--path);
+}
+
+.ascii {
+    white-space: pre;
+    line-height: 1.1;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.stats b { color: var(--accent); }
+
+@media (max-width: 600px) {
+    body { padding: 15px; }
+    .arch-neofetch { flex-direction: column; gap: 10px; }
+    .ascii { font-size: 10px; }
+}
