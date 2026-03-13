@@ -1,5 +1,5 @@
 # Terminal Portfolio v2 🚀
-
+**Live Demo:** [https://abdullah-khateeb.github.io/](https://abdullah-khateeb.github.io/)
 A minimalist, high-performance terminal-themed portfolio designed for a DevSecOps and Cybersecurity professional. This version features a custom typing engine, Arch Linux aesthetic, and a modular architecture.
 
 ![Focus](https://img.shields.io/badge/Focus-Cybersecurity%20%7C%20DevSecOps-green)
