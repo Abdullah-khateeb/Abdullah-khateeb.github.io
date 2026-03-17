@@ -49,12 +49,4 @@ A minimalist, high-performance terminal-themed portfolio designed for a DevSecOp
 * **Udemy:** Bash Shell Scripting Bootcamp
 
 ---
-
-### 🔧 Installation & Local Setup
-
-1.  **Clone the repository:** `git clone https://github.com/Abdullah-khateeb/Abdullah-khateeb.github.io.git`
-2.  **Navigate to the folder:** `cd Abdullah-khateeb.github.io`
-3.  **Open index.html** in your preferred browser.
-
----
 *Maintained by **[Abdullah Khateeb](https://github.com/Abdullah-khateeb)** | 2026*
